@@ -1,0 +1,5 @@
+Converter: playwright_chromium
+Input: /app/workspace/t330036158-bnbu.edu.cn/Just-Asking/runs/bc79fc5f-747a-42a8-b4eb-1cd5f49f19d0/output/main.html
+Output: /app/workspace/t330036158-bnbu.edu.cn/Just-Asking/runs/bc79fc5f-747a-42a8-b4eb-1cd5f49f19d0/output/main.pdf
+Page: 210mm x 297mm, margin=20mm, landscape=False
+Result: pdf_ok

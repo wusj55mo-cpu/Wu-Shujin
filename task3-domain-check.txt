@@ -1,0 +1,18 @@
+AI Learning Assistant Domain + HTTPS + Auth Check
+Time (local): 2026-10-20T13:29:21+0800
+Time (UTC): 2026-10-20T05:29:21Z
+Domain: wsj26.xyz
+Machine: iZf8z7dgd8qw3s15ysuf09Z
+Operating system: Linux 5.15.0-187-generic
+CPU architecture: x86_64
+ECS login user: root
+Website URL: https://wsj26.xyz/ui/
+Docker version 29.9.0, build f415da8
+
+Docker application container:
+CONTAINER ID   NAMES                                  IMAGE                                 STATUS                  PORTS
+80e9ab74cd4f   ai_learning_assistant-main-backend-1   ai-learning-assistant-backend:local   Up 12 hours (healthy)   0.0.0.0:14242->14242/tcp, [::]:14242->14242/tcp
+
+HTTPS Website URL check from ECS:
+HTTP status: 200
+HTTPS Website URL check: PASS

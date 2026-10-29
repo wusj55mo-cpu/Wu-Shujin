@@ -1,0 +1,76 @@
+{
+  "created_at": "2026-10-19T12:24:58Z",
+  "inputs": [
+    {
+      "kind": "task",
+      "path": "input/task.md"
+    }
+  ],
+  "intent": "essay_latex",
+  "model": {
+    "model": "qwen3.6-flash",
+    "profile_id": "environment-default",
+    "provider": "openai_compatible"
+  },
+  "outputs": [
+    {
+      "kind": "source",
+      "path": "output/main.html"
+    },
+    {
+      "kind": "pdf",
+      "path": "output/main.pdf"
+    }
+  ],
+  "revision_of_run_id": null,
+  "run_id": "bc79fc5f-747a-42a8-b4eb-1cd5f49f19d0",
+  "schema_version": 1,
+  "search": {
+    "citations": [
+      {
+        "snippet": "UnderstandingAIAgentsdoesn't require a technical background. This video breaks down the evolution from basic LLMs like #ChatGPT toAIWorkflows and finally to true #AIAgentsthrough practical, real-world examples.",
+        "title": "AIAgents, Clearly Explained - YouTube",
+        "url": "https://www.youtube.com/watch?v=FwOTs4UxQS4"
+      },
+      {
+        "snippet": "Cloudagentscontrol their own computers to build ambitious software.It's a demonstration of Cursor integrated within Slack, showingAI-powered assistance inside team communication. The interface is displayed over a subtle, solid brand background.",
+        "title": "Cursor \u00b7CloudAgents",
+        "url": "https://cursor.com/cloud"
+      },
+      {
+        "snippet": "The 500AIAgentsProjects is a curated collection ofAIagentuse cases across various industries.Run anyagentfrom theagents/ directory cdagents/01-web-research-agentpip install -r requirements.txt cp .env.example .env # add your API key pythonagent.py.",
+        "title": "GitHub - ashishpatel26/500-AI-Agents-Projects: The 500AIAgents...",
+        "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects"
+      }
+    ],
+    "decision": "auto_use_search",
+    "mode": "auto",
+    "used": true
+  },
+  "status": "succeeded",
+  "timings": {
+    "stages": [
+      {
+        "duration_ms": 17,
+        "name": "preparation_context"
+      },
+      {
+        "duration_ms": 13895,
+        "name": "search"
+      },
+      {
+        "duration_ms": 73493,
+        "name": "provider_generation"
+      },
+      {
+        "duration_ms": 456,
+        "name": "artifact_persistence"
+      },
+      {
+        "duration_ms": 1990,
+        "name": "convert_pdf"
+      }
+    ],
+    "total_ms": 90409
+  }
+}

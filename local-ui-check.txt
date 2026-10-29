@@ -1,0 +1,17 @@
+AI Learning Assistant Local Web Interface Check
+Time (local): 2026-10-19T20:31:01+0800
+Time (UTC): 2026-10-19T12:31:01Z
+Machine: LAPTOP-MOMO
+Operating system: MINGW64_NT-10.0-26200 3.6.10-710e5275.x86_64
+CPU architecture: x86_64
+Working directory: /c/Users/WWWSJ/Desktop/4/clouding/AI_Learning_Assistant-main
+Report file: /c/Users/WWWSJ/Desktop/4/clouding/AI_Learning_Assistant-main/local-ui-check.txt
+Tested URL: http://127.0.0.1:14242/ui/
+Execution location: terminal on the machine named above
+Target: this machine's loopback port 14242 (possibly forwarded by an SSH tunnel)
+Browser verification: HTTP checks do not prove that the page rendered in a browser
+
+HTTP status: 200
+curl exit code: 0
+Result: PASS — the web-interface URL returned HTTP 200.
+Browser launch: no supported launcher; open http://127.0.0.1:14242/ui/ manually.

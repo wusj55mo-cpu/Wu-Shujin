@@ -1,0 +1,9 @@
+Pipeline: essay_html
+Output preference: pdf
+Stage: generate_source
+Run failed.
+{"error": {"code": "missing_api_key", "message": "No model API key is configured.", "stage": "generate_source"}}
+Timing total_ms: 9363
+Timing preparation_context_ms: 24
+Timing search_ms: 8641
+Timing provider_generation_ms: 0

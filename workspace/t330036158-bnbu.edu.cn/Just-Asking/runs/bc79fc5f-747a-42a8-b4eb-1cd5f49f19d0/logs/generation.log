@@ -1,0 +1,13 @@
+Pipeline: essay_html
+Output preference: pdf
+Stage: generate_source
+Output: output/main.html
+Stage: convert_pdf
+Convert: pdf_ok
+Output: output/main.pdf
+Timing total_ms: 90190
+Timing preparation_context_ms: 17
+Timing search_ms: 13895
+Timing provider_generation_ms: 73493
+Timing artifact_persistence_ms: 325
+Timing convert_pdf_ms: 1990
